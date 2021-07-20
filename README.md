@@ -1,2 +1,2 @@
-# ypggl
-10.168.9.233
+# ypgl
+This is a drug management system
