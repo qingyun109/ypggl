@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="986.0" y="505.0">com.util.MD5</node>
+    <node x="613.3333333333334" y="859.0">com.action.AdminServlet</node>
+    <node x="0.0" y="1067.0">com.action.YaoServlet</node>
+    <node x="101.5" y="0.0">com.bean.Medicine</node>
+    <node x="414.0" y="449.0">com.bean.SystemBean</node>
+    <node x="685.0" y="0.0">com.util.Constant</node>
+    <node x="624.0" y="288.0">com.bean.AdminBean</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.bean.AdminBean" target="com.util.Constant">
+      <point x="0.0" y="-255.5" />
+      <point x="0.0" y="119.0" />
+    </edge>
+    <edge source="com.action.YaoServlet" target="com.bean.Medicine">
+      <point x="0.0" y="-61.5" />
+      <point x="0.0" y="508.5" />
+    </edge>
+    <edge source="com.action.AdminServlet" target="com.bean.AdminBean">
+      <point x="30.75" y="-61.5" />
+      <point x="828.5833333333334" y="839.0" />
+      <point x="879.75" y="839.0" />
+      <point x="85.25" y="255.5" />
+    </edge>
+    <edge source="com.action.AdminServlet" target="com.util.Constant">
+      <point x="92.25" y="-61.5" />
+      <point x="890.0833333333334" y="829.0" />
+      <point x="975.5" y="829.0" />
+      <point x="975.5" y="263.0" />
+      <point x="867.5" y="263.0" />
+      <point x="73.0" y="119.0" />
+    </edge>
+    <edge source="com.bean.SystemBean" target="com.util.Constant">
+      <point x="0.0" y="-94.5" />
+      <point x="509.0" y="263.0" />
+      <point x="721.5" y="263.0" />
+      <point x="-73.0" y="119.0" />
+    </edge>
+    <edge source="com.action.AdminServlet" target="com.util.MD5">
+      <point x="153.75" y="-61.5" />
+      <point x="951.5833333333334" y="839.0" />
+      <point x="1063.0" y="839.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.action.AdminServlet" target="com.bean.SystemBean">
+      <point x="-92.25" y="-61.5" />
+      <point x="705.5833333333334" y="829.0" />
+      <point x="556.5" y="829.0" />
+      <point x="47.5" y="94.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="276.25000000000034" y="431.99999999999983" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
